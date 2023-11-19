@@ -1,11 +1,32 @@
-.enviroment{color:#d12ac9;
-background:#ab5961;
-	
-	
-	
-	
-	
-	
-	
-	
+*{
+    margin: 0px ;
+    padding: 0px;
 }
+
+
+.menu{
+background: rgb(193, 155, 231);
+
+
+
+}
+.menu ul {
+
+list-style: none;
+}
+
+.menu ul li{
+    display:inline;
+    margin:0px 5px;
+    padding: 5px 10px;
+}
+.menu ul li a {
+   color:white;
+   text-decoration:none ;
+}
+.menu ul li:hover {
+    background: rgb(158, 81, 158);
+    border-radius: 5px;
+    
+}
+
